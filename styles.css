@@ -51,16 +51,16 @@ header + nav {
   background: black;
   border-radius: 0 0 3rem 3rem;
   z-index: 1;
-  top: 0;
+  padding-top: 5rem;
   left: 0;
   box-shadow: 0 40px 70px -20px rgb(0 0 0 / 0.25);
-  top: -25rem;
+  top: -30rem;
   transition-property: top;
   transition-behavior: allow-discrete;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 header.active + nav {
-  top: 5rem;
+  top: 0;
 }
 header.active + nav::before {
   content: "";
