@@ -1,0 +1,55 @@
+h1 {
+  color: white;
+  font-size: 5rem;
+  text-shadow: 10px 20px 50px rgba(0, 0, 0, 1);
+}
+
+main {
+  background-image: url("../assets/Images/1\ -\ Home\ Background.jpg");
+  background-position-x: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section {
+  padding-bottom: 4rem;
+  padding-inline: 0;
+
+  min-height: 100dvh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  @media (width >= 48rem) {
+    padding-inline: 4rem;
+    justify-content: flex-start;
+  }
+}
+
+.about-section {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 3rem;
+  @media (width >= 48rem) {
+    flex-direction: row;
+  }
+}
+.about-section .profile {
+  flex-shrink: 0;
+  width: 128px;
+  height: 128px;
+  border-radius: 1000px;
+}
+.about-section .profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  color: white;
+  text-align: center;
+  @media (width >= 48rem) {
+    text-align: start;
+  }
+}
